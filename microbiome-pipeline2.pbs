@@ -1,12 +1,8 @@
-#####Chris Leung 2021
-
-
-### Construct a id list: PRJNA523634 PRJNA575054 PRJNA342829 SRR516961 PRJEB22597 SRR610826 PRJNA294068
-##Title headings: PRJNA name; SRA accession; author; species; geographical-region; 16s region
+### Construct an id list "SRA-list-2021.txt": PRJNA523634 PRJNA575054 PRJNA342829 SRR516961 PRJEB22597 SRR610826 PRJNA294068
+### Metadata title headings: PRJNA name; SRA accession; author; species; geographical-region; 16s region
 SRA="meta-analysis"
 
 cd /home/d24h_prog2/chris/data/microbiome_mosq/
-#cd $input-path
 
 wget https://www.zenodo.org/record/1185249#.YcpyNWhBxPY  
 input="./SRA-list-2021.txt"
@@ -21,14 +17,12 @@ do
 
 done < "$input"
 
-
 ######sample-id= can be the unique SRA of each sample <-- maybe add info into metadata file
 #barcode="straub2020" ###paper author and year
 #lane="L001"
 #setnumber="001"
 #for filename in *_R1.fastq.gz; do mv "$filename" "$filename_$barcode_$lane_R1_$setnumber.fastq.gz"; done; #change file name
 #for filename in *_R2.fastq.gz; do mv "$filename" "$filename_$barcode_$lane_R2_$setnumber.fastq.gz"; done; #change file name
-
 
 module load anaconda3/2021.05
 source activate qiime2-2021.8
@@ -42,11 +36,7 @@ qiime tools import \
 qiime demux summarize --i-data demux-paired-end.qza --o-visualization demux-full.qzv
 ##shows visual information of the data
 
-
 #Denoising QC with dada2 <-- to remove noisy reads (poor quality), improving the quality of the data
 ###manually look at demux-full.qzv at https://view.qiime2.org/ to determine trim and truncate length
 
 ###copy next steps over after viewing results manually
-
-
-
