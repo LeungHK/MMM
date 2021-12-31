@@ -1,23 +1,15 @@
-###Chris Leung 2021
-
-#code only qiime2
-
-#qiime2 neater code:
-
 #Set the SRA name below to reuse code for each SRA project
-#SRA="SRR3662698"
 SRA="PRJNA294068"
 #set input path below to allow the code to be used by anyone
 #input-path="_"
-
 
 cd /home/d24h_prog2/chris/data/microbiome_mosq/
 #cd $input-path
 mkdir $SRA
 cd $SRA
 
-/home/d24h_prog2/public_program/sratoolkit.2.11.0-ubuntu64/bin/fastq-dump --split-files -X 1000 --gzip $SRA
-###the command -X 1000 downloads first 1000 lines of each SRA fastq file
+/home/d24h_prog2/public_program/sratoolkit.2.11.0-ubuntu64/bin/fastq-dump --split-files -X 10000 --gzip $SRA
+###the command -X 10000 downloads first 10000 lines of each SRA fastq file
 
 #change fastq file headings to Casava 1.8 paired-end demultiplexed fastq format so that QIIME2 can import successfully
 #i.e. SM-B1BQX_ANF6P_L001_R1_001.fastq.gz
