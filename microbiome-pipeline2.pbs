@@ -7,15 +7,15 @@ cd /home/d24h_prog2/chris/data/microbiome_mosq/
 wget https://www.zenodo.org/record/1185249#.YcpyNWhBxPY  
 input="./SRA-list-2021.txt"
 
-mkdir $SRA
-cd $SRA
+mkdir ${SRA}
+cd ${SRA}
 
 while IFS= read -r line
 do
-/home/d24h_prog2/public_program/sratoolkit.2.11.0-ubuntu64/bin/fastq-dump --split-files -X 10000 --gzip $SRA
+/home/d24h_prog2/public_program/sratoolkit.2.11.0-ubuntu64/bin/fastq-dump --split-files -X 10000 --gzip ${SRA}
 ###the command -X 10000 downloads first 10000 lines of each SRA fastq file
 
-done < "$input"
+done < "${input}"
 
 ######sample-id= can be the unique SRA of each sample <-- maybe add info into metadata file
 #barcode="straub2020" ###paper author and year
@@ -29,7 +29,7 @@ source activate qiime2-2021.8
 
 qiime tools import \
   --type 'SampleData[PairedEndSequencesWithQuality]' \
-  --input-path /home/d24h_prog2/chris/data/microbiome_mosq/$SRA/ \
+  --input-path /home/d24h_prog2/chris/data/microbiome_mosq/${SRA}/ \
   --input-format CasavaOneEightSingleLanePerSampleDirFmt \
   --output-path demux-paired-end.qza
 
