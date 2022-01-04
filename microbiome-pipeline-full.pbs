@@ -96,6 +96,7 @@ qiime phylogeny align-to-tree-mafft-fasttree \
   --o-rooted-tree rooted-tree.qza
 
 #set sampling depth based on previous feature-table qzv --> exclude least results, but each file will only keep the same number of reads (randomly chosen).
+View the table.qzv QIIME 2 artifact, and in particular the Interactive Sample Detail tab in that visualization.
 samplingdepth="900" #900 because only downloaded 1000 lines per SRA file currently
 
 qiime diversity core-metrics-phylogenetic \
