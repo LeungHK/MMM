@@ -1,5 +1,6 @@
 #Set the SRA name below to reuse code for each SRA project
 SRA="PRJNA294068"
+barcode_metadata="metadata_metaanalysis.tsv"
 #set input path below to allow the code to be used by anyone
 #input-path="_"
 
@@ -71,11 +72,11 @@ qiime dada2 denoise-paired \
 
 
 #Feature table summary
-###make metadata file in tsv format: i.e. $barcode_metadata.tsv
+###make metadata file in tsv format: i.e. barcode_metadata.tsv
 qiime feature-table summarize \
   --i-table table.qza \
   --o-visualization table.qzv \
-  --m-sample-metadata-file ${barcode_metadata.tsv} #straub_2020_metadata.tsv --> straub2020_metadata.tsv ###need metadata file here
+  --m-sample-metadata-file ${barcode_metadata} #straub_2020_metadata.tsv --> straub2020_metadata.tsv ###need metadata file here
 
 qiime feature-table tabulate-seqs \
   --i-data rep-seqs.qza \
@@ -100,7 +101,7 @@ samplingdepth="900" #900 because only downloaded 1000 lines per SRA file current
 qiime diversity core-metrics-phylogenetic \
   --i-phylogeny rooted-tree.qza \
   --i-table table.qza \
-  --m-metadata-file ${barcode_metadata.tsv} \
+  --m-metadata-file ${barcode_metadata} \
   --p-sampling-depth ${samplingdepth} \
   --output-dir core-metrics-results
 
@@ -126,7 +127,7 @@ qiime metadata tabulate \
 qiime taxa barplot \
   --i-table table.qza \
   --i-taxonomy taxonomy.qza \
-  --m-metadata-file ${barcode_metadata.tsv} \
+  --m-metadata-file ${barcode_metadata} \
   --o-visualization taxa-bar-plots.qzv
 
 
@@ -140,13 +141,13 @@ qiime taxa barplot \
 
 qiime diversity alpha-group-significance \
   --i-alpha-diversity core-metrics-results/faith_pd_vector.qza \
-  --m-metadata-file ${barcode_metadata.tsv} \
+  --m-metadata-file ${barcode_metadata} \
   --o-visualization core-metrics-results/faith-pd-group-significance.qzv
 
 qiime diversity alpha-group-significance \
   --i-alpha-diversity core-metrics-results/evenness_vector.qza \
-  --m-metadata-file ${barcode_metadata.tsv} \
+  --m-metadata-file ${barcode_metadata} \
   --o-visualization core-metrics-results/evenness-group-significance.qzv
 
-###  ... more analysis with metadata (categorical data) in the tutorial at https://docs.qiime2.org/2021.8/tutorials/moving-pictures/ , need real metadata
+###  ... more analysis with metadata (categorical data) in the tutorial at https://docs.qiime2.org/2021.8/tutorials/moving-pictures/, need real metadata
 
