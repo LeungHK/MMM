@@ -56,8 +56,8 @@ source activate chris_software
 
 cd /home/d24h_prog2/chris/data/microbiome_mosq/
 
-#mkdir $SRA
-cd $SRA
+#mkdir ${SRA}
+cd ${SRA}
 
 #wget https://www.zenodo.org/record/1185249#.YcpyNWhBxPY  
 
@@ -72,8 +72,6 @@ barcode="Osei-Poku2012" ###paper author and year
 lane="L001"
 setnumber="001"
 /home/d24h_prog2/chris/software/sratoolkit.2.11.3-ubuntu64/bin/fastq-dump --split-files -X 10000 --gzip SRR516961 
-##for filename in *_1.fastq.gz; do mv "${filename}" "${filename}_${barcode}_${lane}_R1_${setnumber}.fastq.gz"; done; #change file name
-##for filename in *_2.fastq.gz; do mv "$filename" "$filename_$barcode_$lane_R2_$setnumber.fastq.gz"; done; #change file name
 for filename in *_1.fastq.gz; do mv -- "$filename" "${filename%_1.fastq.gz}_${barcode}_${lane}_R1_${setnumber}.fastq.gz"; done; #change file name
 for filename in *_2.fastq.gz; do mv -- "$filename" "${filename%_2.fastq.gz}_${barcode}_${lane}_R2_${setnumber}.fastq.gz"; done; #change file name
 
