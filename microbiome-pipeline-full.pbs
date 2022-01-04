@@ -4,9 +4,9 @@ SRA="PRJNA294068"
 #input-path="_"
 
 cd /home/d24h_prog2/chris/data/microbiome_mosq/
-#cd $input-path
-mkdir $SRA
-cd $SRA
+#cd ${input-path}
+mkdir ${SRA}
+cd ${SRA}
 
 /home/d24h_prog2/public_program/sratoolkit.2.11.0-ubuntu64/bin/fastq-dump --split-files -X 10000 --gzip $SRA
 ###the command -X 10000 downloads first 10000 lines of each SRA fastq file
@@ -31,10 +31,8 @@ barcode="straub2020" ###paper author and year
 lane="L001"
 setnumber="001"
 
-#for filename in *.jpg; do mv "$filename" "prefix_$filename"; done;  
-
-for filename in *_R1.fastq.gz; do mv "$filename" "$filename_$barcode_$lane_R1_$setnumber.fastq.gz"; done; #change file name
-for filename in *_R2.fastq.gz; do mv "$filename" "$filename_$barcode_$lane_R2_$setnumber.fastq.gz"; done; #change file name
+for filename in *_1.fastq.gz; do mv -- "${filename}" "${filename%_1.fastq.gz}_${barcode}_${lane}_R1_${setnumber}.fastq.gz"; done; #change file name
+for filename in *_2.fastq.gz; do mv -- "${filename}" "${filename%_2.fastq.gz}_${barcode}_${lane}_R2_${setnumber}.fastq.gz"; done; #change file name
 
 ##Download QIIME2 (do once)
 wget https://data.qiime2.org/distro/core/qiime2-2021.8-py38-linux-conda.yml
@@ -47,7 +45,7 @@ conda activate qiime2-2021.8
 
 qiime tools import \
   --type 'SampleData[PairedEndSequencesWithQuality]' \
-  --input-path /home/d24h_prog2/chris/data/microbiome_mosq/$SRA/ \
+  --input-path /home/d24h_prog2/chris/data/microbiome_mosq/${SRA}/ \
   --input-format CasavaOneEightSingleLanePerSampleDirFmt \
   --output-path demux-paired-end.qza
 
@@ -63,10 +61,10 @@ truncr="175"
 
 qiime dada2 denoise-paired \
   --i-demultiplexed-seqs demux-paired-end.qza\
-  --p-trim-left-f $trimf \
-  --p-trim-left-r $trimr \
-  --p-trunc-len-f $truncf \
-  --p-trunc-len-r $truncr \
+  --p-trim-left-f ${trimf} \
+  --p-trim-left-r ${trimr} \
+  --p-trunc-len-f ${truncf} \
+  --p-trunc-len-r ${truncr} \
   --o-table table.qza \
   --o-representative-sequences rep-seqs.qza \
   --o-denoising-stats denoising-stats.qza
@@ -77,7 +75,7 @@ qiime dada2 denoise-paired \
 qiime feature-table summarize \
   --i-table table.qza \
   --o-visualization table.qzv \
-  --m-sample-metadata-file $barcode_metadata.tsv #straub_2020_metadata.tsv --> straub2020_metadata.tsv ###need metadata file here
+  --m-sample-metadata-file ${barcode_metadata.tsv} #straub_2020_metadata.tsv --> straub2020_metadata.tsv ###need metadata file here
 
 qiime feature-table tabulate-seqs \
   --i-data rep-seqs.qza \
@@ -102,8 +100,8 @@ samplingdepth="900" #900 because only downloaded 1000 lines per SRA file current
 qiime diversity core-metrics-phylogenetic \
   --i-phylogeny rooted-tree.qza \
   --i-table table.qza \
-  --m-metadata-file $barcode_metadata.tsv \
-  --p-sampling-depth $samplingdepth \
+  --m-metadata-file ${barcode_metadata.tsv} \
+  --p-sampling-depth ${samplingdepth} \
   --output-dir core-metrics-results
 
 #After computing diversity metrics, we can begin to explore the microbial composition of the samples in the context of the sample metadata.
@@ -128,7 +126,7 @@ qiime metadata tabulate \
 qiime taxa barplot \
   --i-table table.qza \
   --i-taxonomy taxonomy.qza \
-  --m-metadata-file $barcode_metadata.tsv \
+  --m-metadata-file ${barcode_metadata.tsv} \
   --o-visualization taxa-bar-plots.qzv
 
 
@@ -142,12 +140,12 @@ qiime taxa barplot \
 
 qiime diversity alpha-group-significance \
   --i-alpha-diversity core-metrics-results/faith_pd_vector.qza \
-  --m-metadata-file $barcode_metadata.tsv \
+  --m-metadata-file ${barcode_metadata.tsv} \
   --o-visualization core-metrics-results/faith-pd-group-significance.qzv
 
 qiime diversity alpha-group-significance \
   --i-alpha-diversity core-metrics-results/evenness_vector.qza \
-  --m-metadata-file $barcode_metadata.tsv \
+  --m-metadata-file ${barcode_metadata.tsv} \
   --o-visualization core-metrics-results/evenness-group-significance.qzv
 
 ###  ... more analysis with metadata (categorical data) in the tutorial at https://docs.qiime2.org/2021.8/tutorials/moving-pictures/ , need real metadata
