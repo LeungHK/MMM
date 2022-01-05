@@ -1,0 +1,114 @@
+#!/bin/sh
+### Job name
+#PBS -N chris_microbiome_QIIME2_analysis_part-c
+### Declare job non-rerunable
+#PBS -r n
+#PBS -k oe
+
+################Change This For Different Queue#####################
+#PBS -q stdq1
+###PBS -q medq1
+####################################################################
+
+### Wall time required. This example is 48 hours
+#PBS -l walltime=96:00:00
+
+### Number of nodes 
+### The following means 1 nodes required. Processor Per Node=20, 
+### ppn (Processor Per Node) can be any number up to 20.
+###PBS -l nodes=2:ppn=20
+
+#########REMEMBER TO CHANGE THE THREAD NUMBER ACCORDING TO THE CHOSEN NODE#################
+###PBS -l nodes=1:ppn=40
+#PBS -l select=1:ncpus=40:mem=755gb
+###########################################################################################
+
+#The following stuff will be executed in the first allocated node.
+#Please don't modify it
+
+PATH=$PBS_O_PATH
+cd $PBS_O_WORKDIR
+# Define number of processors
+NPROCS=`wc -l < $PBS_NODEFILE`
+NNODES=`uniq $PBS_NODEFILE | wc -l`
+NCORES=$((NPROCS / NNODES))
+
+JID=`echo ${PBS_JOBID}| sed "s/.hpc2015-mgt.hku.hk//"`
+echo Job ID : ${JID}
+echo ${NPROCS} CPUs allocated: `cat $PBS_NODEFILE` 1>&2
+echo This PBS script is running on host `hostname` 1>&2
+echo Working directory is $PBS_O_WORKDIR  1>&2
+
+echo ============== ${PBS_JOBNAME} : ${NPROCS} CPUs ====================
+echo "Job Start Time is `date "+%Y/%m/%d -- %H:%M:%S"`"
+
+##############################################################################################################################################################
+
+###QIIME2 Analysis Part b
+###NEED METADATA HERE
+###need sampling-depth
+
+#SRA accession
+SRA="meta-analysis-3"
+barcode_metadata="../metadata_metaanalysis.tsv"
+threads="40"
+
+module load anaconda3/2021.05
+
+cd /home/d24h_prog2/chris/data/microbiome_mosq/
+#mkdir $SRA
+cd $SRA
+
+###Download QIIME2 (do once)
+#wget https://data.qiime2.org/distro/core/qiime2-2021.8-py38-linux-conda.yml
+#conda env create -n qiime2-2021.8 --file qiime2-2021.8-py38-linux-conda.yml
+### OPTIONAL CLEANUP
+#rm qiime2-2021.8-py38-linux-conda.yml
+
+source activate qiime2-2021.8
+
+###to deal with QIIME2 [Errno 28] No space left on device: https://forum.qiime2.org/t/no-space-left-on-device-classifier-tmpdir/2768/3
+export TMPDIR='/home/d24h_prog2/chris/data/microbiome_mosq/TMPDIR'
+echo ${TMPDIR}
+
+#Taxonomic analysis
+#wget \
+#  -O "gg-13-8-99-515-806-nb-classifier.qza" \
+#  https://data.qiime2.org/2021.8/common/gg-13-8-99-515-806-nb-classifier.qza
+#^just need to download once
+
+###Set sampling depth to continue QIIME 2’s diversity analyses
+#set sampling depth based on previous feature-table qzv --> exclude least results, but each file will only keep the same number of reads (randomly chosen).
+#View the table.qzv QIIME 2 artifact, and in particular the Interactive Sample Detail tab in that visualization.
+samplingdepth="170" #9000 because only downloaded 10000 lines per SRA file currently
+
+
+qiime diversity core-metrics-phylogenetic \
+  --i-phylogeny rooted-tree.qza \
+  --i-table table.qza \
+  --m-metadata-file ${barcode_metadata} \
+  --p-sampling-depth ${samplingdepth} \
+  --output-dir core-metrics-results
+
+#After computing diversity metrics, we can begin to explore the microbial composition of the samples in the context of the sample metadata.
+#This information is present in the sample metadata file that was downloaded earlier.
+#We’ll first test for associations between categorical metadata columns and alpha diversity data.
+#We’ll do that here for the Faith Phylogenetic Diversity (a measure of community richness) and evenness metrics.
+
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/faith_pd_vector.qza \
+  --m-metadata-file ${barcode_metadata} \
+  --o-visualization core-metrics-results/faith-pd-group-significance.qzv
+
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/evenness_vector.qza \
+  --m-metadata-file ${barcode_metadata} \
+  --o-visualization core-metrics-results/evenness-group-significance.qzv
+
+##############################################################################################################################################################
+
+echo "Job Finish Time is `date "+%Y/%m/%d -- %H:%M:%S"`"
+
+mv ~/*${PBS_JOBNAME}* /home/d24h_prog2/chris/logs/
+
+exit 0
