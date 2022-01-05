@@ -1,0 +1,96 @@
+#!/bin/sh
+### Job name
+#PBS -N chris_microbiome_QIIME2_analysis_part-a
+### Declare job non-rerunable
+#PBS -r n
+#PBS -k oe
+
+################Change This For Different Queue#####################
+#PBS -q stdq1
+###PBS -q medq1
+####################################################################
+
+### Wall time required. This example is 48 hours
+#PBS -l walltime=96:00:00
+
+### Number of nodes 
+### The following means 1 nodes required. Processor Per Node=20, 
+### ppn (Processor Per Node) can be any number up to 20.
+###PBS -l nodes=2:ppn=20
+
+#########REMEMBER TO CHANGE THE THREAD NUMBER ACCORDING TO THE CHOSEN NODE#################
+###PBS -l nodes=1:ppn=40
+#PBS -l select=1:ncpus=40:mem=755gb
+###########################################################################################
+
+#The following stuff will be executed in the first allocated node.
+#Please don't modify it
+
+PATH=$PBS_O_PATH
+cd $PBS_O_WORKDIR
+# Define number of processors
+NPROCS=`wc -l < $PBS_NODEFILE`
+NNODES=`uniq $PBS_NODEFILE | wc -l`
+NCORES=$((NPROCS / NNODES))
+
+JID=`echo ${PBS_JOBID}| sed "s/.hpc2015-mgt.hku.hk//"`
+echo Job ID : ${JID}
+echo ${NPROCS} CPUs allocated: `cat $PBS_NODEFILE` 1>&2
+echo This PBS script is running on host `hostname` 1>&2
+echo Working directory is $PBS_O_WORKDIR  1>&2
+
+echo ============== ${PBS_JOBNAME} : ${NPROCS} CPUs ====================
+echo "Job Start Time is `date "+%Y/%m/%d -- %H:%M:%S"`"
+
+##############################################################################################################################################################
+
+###QIIME2 Analysis Part a
+#SRA accession
+SRA="meta-analysis-3"
+#barcode_metadata="../metadata_metaanalysis.tsv"
+threads="40"
+
+module load anaconda3/2021.05
+
+cd /home/d24h_prog2/chris/data/microbiome_mosq/
+#mkdir $SRA
+cd $SRA
+
+###Download QIIME2 (do once)
+#wget https://data.qiime2.org/distro/core/qiime2-2021.8-py38-linux-conda.yml
+#conda env create -n qiime2-2021.8 --file qiime2-2021.8-py38-linux-conda.yml
+### OPTIONAL CLEANUP
+#rm qiime2-2021.8-py38-linux-conda.yml
+
+
+source activate qiime2-2021.8
+
+###to deal with QIIME2 [Errno 28] No space left on device: https://forum.qiime2.org/t/no-space-left-on-device-classifier-tmpdir/2768/3
+export TMPDIR='/home/d24h_prog2/chris/data/microbiome_mosq/TMPDIR'
+echo ${TMPDIR}
+
+#Import data to create a new QIIME 2 Artifact. See https://docs.qiime2.org/
+#  for usage examples and details on the file types and associated semantic
+#  types that can be imported.
+#TAKE CARE TO MAKE SURE data does not contain unpaired (single) data
+qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path /home/d24h_prog2/chris/data/microbiome_mosq/$SRA/ \
+  --input-format CasavaOneEightSingleLanePerSampleDirFmt \
+  --output-path demux-paired-end.qza
+
+#Summarize counts per sample for all samples, and generate interactive
+#  positional quality plots based on `n` randomly selected sequences.
+qiime demux summarize --i-data demux-paired-end.qza --o-visualization demux-full.qzv
+###shows visual information of the data
+
+###Used for denoising QC with dada2 <-- to remove noisy reads (poor quality), improving the quality of the data
+###manually look at demux-full.qzv at https://view.qiime2.org/ to determine trim and truncate length
+
+##############################################################################################################################################################
+
+echo "Job Finish Time is `date "+%Y/%m/%d -- %H:%M:%S"`"
+
+mv ~/*${PBS_JOBNAME}* /home/d24h_prog2/chris/logs/
+
+exit 0
