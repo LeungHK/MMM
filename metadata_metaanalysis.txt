@@ -1,0 +1,611 @@
+sample-id	Author	Year	Region	Species	LibraryLayout	16s region	Stage	BioSample	Comment	Date of collection
+ERR2122273	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303066		2/5/2015
+ERR2122274	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303067		2/5/2015
+ERR2122275	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303068		2/5/2015
+ERR2122276	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303069		2/5/2015
+ERR2122277	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303070		2/5/2015
+ERR2122278	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303071		2/5/2015
+ERR2122279	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303072		2/5/2015
+ERR2122280	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303073		2/5/2015
+ERR2122281	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303074		2/5/2015
+ERR2122282	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303075		2/5/2015
+ERR2122283	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303076		2/5/2015
+ERR2122284	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303077		2/5/2015
+ERR2122285	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303078		2/5/2015
+ERR2122286	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303079		8/5/2015
+ERR2122287	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303080		8/5/2015
+ERR2122288	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303081		8/5/2015
+ERR2122289	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303082		8/5/2015
+ERR2122290	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303083		8/5/2015
+ERR2122291	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303084		8/5/2015
+ERR2122292	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303085		8/5/2015
+ERR2122293	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303086		8/5/2015
+ERR2122294	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303087		8/5/2015
+ERR2122295	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303088		8/5/2015
+ERR2122296	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303089		8/5/2015
+ERR2122297	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303090		8/5/2015
+ERR2122298	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303091		18/4/2015
+ERR2122299	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303092		18/4/2015
+ERR2122300	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303093		18/4/2015
+ERR2122301	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303094		18/4/2015
+ERR2122302	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303095		18/4/2015
+ERR2122303	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303096		18/4/2015
+ERR2122304	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303097		18/4/2015
+ERR2122305	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303098		18/4/2015
+ERR2122306	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303099		2/5/2015
+ERR2122307	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303100		2/5/2015
+ERR2122308	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303101		2/5/2015
+ERR2122309	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303102		2/5/2015
+ERR2122310	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303103		2/5/2015
+ERR2122311	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303104		8/5/2015
+ERR2122312	Receveur	2018	USA	Ochlerotatus stimulans; Aedes (Culicidae) 	PAIRED		Larvae 	SAMEA104303105		8/5/2015
+SRR10215511	Chen	2020	Austria	Aedes albopictus	PAIRED		Larvae	SAMN12881499		2013
+SRR10215512	Chen	2020	Austria	Aedes albopictus	PAIRED		Adult	SAMN12881498		2013
+SRR10215513	Chen	2020	Austria	Aedes albopictus	PAIRED		Adult	SAMN12881497		2013
+SRR10215514	Chen	2020	Austria	Aedes albopictus	PAIRED		Adult	SAMN12881496		2013
+SRR10215515	Chen	2020	Austria	Aedes albopictus	PAIRED		Adult	SAMN12881495		2013
+SRR10215516	Chen	2020	Austria	Aedes albopictus	PAIRED		Eggs	SAMN12881494		2013
+SRR10215517	Chen	2020	Austria	Aedes albopictus	PAIRED		Adult	SAMN12877157		2013
+SRR2517311	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014615		13/9/2014
+SRR2517361	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014504		11/9/2014
+SRR2517362	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014543		12/9/2014
+SRR2517363	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014496		11/9/2014
+SRR2517364	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014565		12/9/2014
+SRR2517365	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014557		12/9/2014
+SRR2517366	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014611		13/9/2014
+SRR2517367	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014589		12/9/2014
+SRR2517368	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014643		13/9/2014
+SRR2517392	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014620		13/9/2014
+SRR2517393	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014616		13/9/2014
+SRR2517394	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014579		12/9/2014
+SRR2517395	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014583		12/9/2014
+SRR2517396	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014614		13/9/2014
+SRR2517397	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014512		11/9/2014
+SRR2517398	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014607		12/9/2014
+SRR2517399	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014482		11/9/2014
+SRR2517400	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014596		12/9/2014
+SRR2517401	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014526		12/9/2014
+SRR2517402	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014595		12/9/2014
+SRR2517403	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014646		13/9/2014
+SRR2517404	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014552		12/9/2014
+SRR2517405	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014537		12/9/2014
+SRR2517406	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014581		12/9/2014
+SRR2517407	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014602		12/9/2014
+SRR2517408	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014584		12/9/2014
+SRR2517409	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014534		12/9/2014
+SRR2517410	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014499		11/9/2014
+SRR2517411	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014585		12/9/2014
+SRR2517412	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014594		12/9/2014
+SRR2517413	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014480		11/9/2014
+SRR2517414	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014631		13/9/2014
+SRR2517415	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014657		13/9/2014
+SRR2517416	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014601		12/9/2014
+SRR2517417	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014502		11/9/2014
+SRR2517418	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014604		12/9/2014
+SRR2517419	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014516		11/9/2014
+SRR2517420	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014591		12/9/2014
+SRR2517421	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014477		11/9/2014
+SRR2517422	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014606		12/9/2014
+SRR2517423	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014625		13/9/2014
+SRR2517424	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014509		11/9/2014
+SRR2517425	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014567		12/9/2014
+SRR2517528	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014498		11/9/2014
+SRR2517529	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014640		13/9/2014
+SRR2517530	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014618		13/9/2014
+SRR2517531	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014605		12/9/2014
+SRR2517532	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014540		12/9/2014
+SRR2517533	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014525		12/9/2014
+SRR2517534	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014644		13/9/2014
+SRR2517583	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014522		11/9/2014
+SRR2517584	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014649		13/9/2014
+SRR2517585	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014566		12/9/2014
+SRR2517586	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014648		13/9/2014
+SRR2517587	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014519		11/9/2014
+SRR2517588	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014628		13/9/2014
+SRR2517589	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014636		13/9/2014
+SRR2517590	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014630		13/9/2014
+SRR2517591	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014575		12/9/2014
+SRR2517592	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014556		12/9/2014
+SRR2517593	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014650		13/9/2014
+SRR2517594	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014629		13/9/2014
+SRR2517595	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014549		12/9/2014
+SRR2517596	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014474		11/9/2014
+SRR2517597	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014574		12/9/2014
+SRR2517598	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014515		11/9/2014
+SRR2517599	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014511		11/9/2014
+SRR2517600	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014560		12/9/2014
+SRR2517601	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014622		13/9/2014
+SRR2517602	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014562		12/9/2014
+SRR2517603	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014475		11/9/2014
+SRR2517604	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014533		12/9/2014
+SRR2517605	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014468		11/9/2014
+SRR2517606	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014550		12/9/2014
+SRR2517607	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014598		12/9/2014
+SRR2517608	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014486		11/9/2014
+SRR2517609	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014633		13/9/2014
+SRR2517610	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014627		13/9/2014
+SRR2517611	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014624		13/9/2014
+SRR2517612	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014539		12/9/2014
+SRR2517613	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014471		11/9/2014
+SRR2517614	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014572		12/9/2014
+SRR2517615	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014490		11/9/2014
+SRR2517616	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014472		11/9/2014
+SRR2517617	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014573		12/9/2014
+SRR2517618	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014473		11/9/2014
+SRR2517619	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014529		12/9/2014
+SRR2517620	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014590		12/9/2014
+SRR2517621	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014600		12/9/2014
+SRR2517622	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014508		11/9/2014
+SRR2517623	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014593		12/9/2014
+SRR2517624	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014577		12/9/2014
+SRR2517625	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014658		13/9/2014
+SRR2517626	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014563		12/9/2014
+SRR2517627	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014469		11/9/2014
+SRR2517628	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014541		12/9/2014
+SRR2517629	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014479		11/9/2014
+SRR2517630	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014530		12/9/2014
+SRR2517631	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014647		13/9/2014
+SRR2517632	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014608		12/9/2014
+SRR2517633	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014626		13/9/2014
+SRR2517634	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014547		12/9/2014
+SRR2517635	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014493		11/9/2014
+SRR2517636	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014555		12/9/2014
+SRR2517637	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014536		12/9/2014
+SRR2517638	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014603		12/9/2014
+SRR2517639	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014641		13/9/2014
+SRR2517640	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014521		11/9/2014
+SRR2517641	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014488		11/9/2014
+SRR2517642	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014570		12/9/2014
+SRR2517643	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014619		13/9/2014
+SRR2517644	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014576		12/9/2014
+SRR2517645	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014609		12/9/2014
+SRR2517646	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014613		13/9/2014
+SRR2517647	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014554		12/9/2014
+SRR2517648	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014542		12/9/2014
+SRR2517649	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014489		11/9/2014
+SRR2517650	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014638		13/9/2014
+SRR2517651	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014592		12/9/2014
+SRR2517652	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014623		13/9/2014
+SRR2517653	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014569		12/9/2014
+SRR2517654	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014528		12/9/2014
+SRR2517655	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014597		12/9/2014
+SRR2517656	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014527		12/9/2014
+SRR2517657	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014652		13/9/2014
+SRR2517658	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014561		12/9/2014
+SRR2517659	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014535		12/9/2014
+SRR2517660	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014494		11/9/2014
+SRR2517661	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014501		11/9/2014
+SRR2517662	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014548		12/9/2014
+SRR2517663	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014587		12/9/2014
+SRR2517664	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014481		11/9/2014
+SRR2517665	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014517		11/9/2014
+SRR2517666	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014617		13/9/2014
+SRR2517667	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014551		12/9/2014
+SRR2517668	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014639		13/9/2014
+SRR2517669	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014523		11/9/2014
+SRR2517670	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014538		12/9/2014
+SRR2517671	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014513		11/9/2014
+SRR2517672	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014655		13/9/2014
+SRR2517673	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014532		12/9/2014
+SRR2517674	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014514		11/9/2014
+SRR2517675	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014487		11/9/2014
+SRR2517676	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014506		11/9/2014
+SRR2517677	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014553		12/9/2014
+SRR2517678	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014507		11/9/2014
+SRR2517679	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014492		11/9/2014
+SRR2517680	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014580		12/9/2014
+SRR2517681	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014544		12/9/2014
+SRR2517682	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014588		12/9/2014
+SRR2523263	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014510		11/9/2014
+SRR2523264	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014503		11/9/2014
+SRR2523265	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014571		12/9/2014
+SRR2523266	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014484		11/9/2014
+SRR2523267	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014518		11/9/2014
+SRR2523268	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014642		13/9/2014
+SRR2523269	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014621		13/9/2014
+SRR2523270	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014564		12/9/2014
+SRR2523271	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014651		13/9/2014
+SRR2523272	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014578		12/9/2014
+SRR2523273	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014483		11/9/2014
+SRR2523274	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014645		13/9/2014
+SRR2523275	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014491		11/9/2014
+SRR2523276	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014470		11/9/2014
+SRR2523277	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014531		12/9/2014
+SRR2523278	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014582		12/9/2014
+SRR2523279	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014497		11/9/2014
+SRR2523280	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014505		11/9/2014
+SRR2523281	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014637		13/9/2014
+SRR2523282	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014634		13/9/2014
+SRR2523283	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04014635		13/9/2014
+SRR3662630	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933321		10/9/2015
+SRR3662631	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933290		9/9/2015
+SRR3662632	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933307		9/9/2015
+SRR3662633	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933327		10/9/2015
+SRR3662634	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933365		11/9/2015
+SRR3662635	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933343		10/9/2015
+SRR3662636	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933374		12/9/2015
+SRR3662637	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933351		11/9/2015
+SRR3662638	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933347		10/9/2015
+SRR3662639	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933344		10/9/2015
+SRR3662640	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933373		11/9/2015
+SRR3662641	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933367		11/9/2015
+SRR3662642	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933341		10/9/2015
+SRR3662643	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933335		10/9/2015
+SRR3662644	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933364		11/9/2015
+SRR3662645	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933342		10/9/2015
+SRR3662646	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933359		11/9/2015
+SRR3662647	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933416		13/9/2015
+SRR3662648	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933405		13/9/2015
+SRR3662649	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933411		13/9/2015
+SRR3662650	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933392		12/9/2015
+SRR3662651	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933409		13/9/2015
+SRR3662652	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933421		15/9/2015
+SRR3662653	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933388		11/9/2015
+SRR3662654	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933403		12/9/2015
+SRR3662655	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933427		15/9/2015
+SRR3662656	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933400		12/9/2015
+SRR3662657	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933432		15/9/2015
+SRR3662658	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933410		13/9/2015
+SRR3662659	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933413		13/9/2015
+SRR3662660	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933420		13/9/2015
+SRR3662661	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933406		13/9/2015
+SRR3662662	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933381		11/9/2015
+SRR3662663	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933437		15/9/2015
+SRR3662664	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933444		15/9/2015
+SRR3662665	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933459		15/9/2015
+SRR3662666	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933443		15/9/2015
+SRR3662667	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933451		15/9/2015
+SRR3662668	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933445		15/9/2015
+SRR3662669	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933453		15/9/2015
+SRR3662670	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933442		15/9/2015
+SRR3662671	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933461		15/9/2015
+SRR3662672	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933287		8/9/2015
+SRR3662673	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933278		8/9/2015
+SRR3662674	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933301		9/9/2015
+SRR3662675	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933284		8/9/2015
+SRR3662676	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933311		9/9/2015
+SRR3662677	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933285		8/9/2015
+SRR3662678	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933310		9/9/2015
+SRR3662679	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933334		10/9/2015
+SRR3662680	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933305		9/9/2015
+SRR3662681	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933308		9/9/2015
+SRR3662682	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933330		10/9/2015
+SRR3662683	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933297		9/9/2015
+SRR3662684	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933295		9/9/2015
+SRR3662685	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933304		9/9/2015
+SRR3662686	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933294		9/9/2015
+SRR3662687	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933320		9/9/2015
+SRR3662688	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933296		9/9/2015
+SRR3662689	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933275		8/9/2015
+SRR3662690	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933276		8/9/2015
+SRR3662691	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933274		8/9/2015
+SRR3662692	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933280		8/9/2015
+SRR3662693	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933293		9/9/2015
+SRR3662694	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933292		9/9/2015
+SRR3662695	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933282		8/9/2015
+SRR3662696	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933279		8/9/2015
+SRR3662697	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933283		8/9/2015
+SRR3662698	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933286		8/9/2015
+SRR3662699	Straub	2020	Burkina Faso	Anopheles coluzzii 	PAIRED		Adult	SAMN04933281		8/9/2015
+SRR4384536	Coon	2016	USA	"Aedes aegypti, Aedes albopictus, Culex quinquefasciatus"	PAIRED		Larvae	SAMN05770195	Poor labels	2014
+SRR4384537	Coon	2016	USA	"Aedes aegypti, Aedes albopictus, Culex quinquefasciatus"	PAIRED		Larvae	SAMN05861581	Poor labels	2014
+SRR4384538	Coon	2016	USA	"Aedes aegypti, Aedes albopictus, Culex quinquefasciatus"	PAIRED		Larvae	SAMN05861582	Poor labels	2014
+SRR516961 	Osei-Poku	2012	Kenya coastal region 	"Aedes, Anopheles, Culex and Mansonia"	SINGLE		Adult	SAMN01084057		na
+SRR610826	Segata	2016	Burkina Faso	Anopheles gambiae	PAIRED	V4	Adult	SAMN01103543	Have 169 SRA at PRJNA172065	na
+SRR8703885	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089973		2016
+SRR8703886	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089974		2016
+SRR8703887	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089965		2016
+SRR8703888	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089966		2016
+SRR8703889	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089967		2016
+SRR8703890	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089968		2016
+SRR8703891	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089969		2016
+SRR8703892	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089970		2016
+SRR8703893	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089971		2016
+SRR8703894	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089972		2016
+SRR8703895	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090024		2016
+SRR8703896	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090023		2016
+SRR8703897	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090022		2016
+SRR8703898	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090021		2016
+SRR8703899	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090020		2016
+SRR8703900	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090019		2016
+SRR8703901	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090018		2016
+SRR8703902	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090017		2016
+SRR8703903	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090016		2016
+SRR8703904	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090015		2016
+SRR8703905	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089940		2016
+SRR8703906	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089939		2016
+SRR8703907	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089942		2016
+SRR8703908	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089941		2016
+SRR8703909	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089936		2016
+SRR8703910	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089935		2016
+SRR8703911	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089938		2016
+SRR8703912	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089937		2016
+SRR8703913	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089944		2016
+SRR8703914	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089943		2016
+SRR8703915	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090013		2016
+SRR8703916	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090014		2016
+SRR8703917	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090007		2016
+SRR8703918	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090008		2016
+SRR8703919	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090005		2016
+SRR8703920	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090006		2016
+SRR8703921	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090011		2016
+SRR8703922	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090012		2016
+SRR8703923	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11090009		2016
+SRR8703924	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11090010		2016
+SRR8703925	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089951		2016
+SRR8703926	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089952		2016
+SRR8703927	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089949		2016
+SRR8703928	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089950		2016
+SRR8703929	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089947		2016
+SRR8703930	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089948		2016
+SRR8703931	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089945		2016
+SRR8703932	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089946		2016
+SRR8703933	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089953		2016
+SRR8703934	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089954		2016
+SRR8703935	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090004		2016
+SRR8703936	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090003		2016
+SRR8703937	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089996		2016
+SRR8703938	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089995		2016
+SRR8703939	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089998		2016
+SRR8703940	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089997		2016
+SRR8703941	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090000		2016
+SRR8703942	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089999		2016
+SRR8703943	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090002		2016
+SRR8703944	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090001		2016
+SRR8703945	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089985		2016
+SRR8703946	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089918		2016
+SRR8703947	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089917		2016
+SRR8703948	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089916		2016
+SRR8703949	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089915		2016
+SRR8703950	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089922		2016
+SRR8703951	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089921		2016
+SRR8703952	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089920		2016
+SRR8703953	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089919		2016
+SRR8703954	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089924		2016
+SRR8703955	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089923		2016
+SRR8703956	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089986		2016
+SRR8703957	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089933		2016
+SRR8703958	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089934		2016
+SRR8703959	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089929		2016
+SRR8703960	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089930		2016
+SRR8703961	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089931		2016
+SRR8703962	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089932		2016
+SRR8703963	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089925		2016
+SRR8703964	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089926		2016
+SRR8703965	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089927		2016
+SRR8703966	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089928		2016
+SRR8703967	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089913		2016
+SRR8703968	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089914		2016
+SRR8703969	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089907		2016
+SRR8703970	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089908		2016
+SRR8703971	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089905		2016
+SRR8703972	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089906		2016
+SRR8703973	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089911		2016
+SRR8703974	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089912		2016
+SRR8703975	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089909		2016
+SRR8703976	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089910		2016
+SRR8703977	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089987		2016
+SRR8703978	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089988		2016
+SRR8703979	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089976		2016
+SRR8703980	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089975		2016
+SRR8703981	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089978		2016
+SRR8703982	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089977		2016
+SRR8703983	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089980		2016
+SRR8703984	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089979		2016
+SRR8703985	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089982		2016
+SRR8703986	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089981		2016
+SRR8703987	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089984		2016
+SRR8703988	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089983		2016
+SRR8703989	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089991		2016
+SRR8703990	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089992		2016
+SRR8703991	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089964		2016
+SRR8703992	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089963		2016
+SRR8703993	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089962		2016
+SRR8703994	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089961		2016
+SRR8703995	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089960		2016
+SRR8703996	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089959		2016
+SRR8703997	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089958		2016
+SRR8703998	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089957		2016
+SRR8703999	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089956		2016
+SRR8704000	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089955		2016
+SRR8704001	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089903		2016
+SRR8704002	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089904		2016
+SRR8704003	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089897		2016
+SRR8704004	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089898		2016
+SRR8704005	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089895		2016
+SRR8704006	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089896		2016
+SRR8704007	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089901		2016
+SRR8704008	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089902		2016
+SRR8704009	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089899		2016
+SRR8704010	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089900		2016
+SRR8704011	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090025		2016
+SRR8704012	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090026		2016
+SRR8704013	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090027		2016
+SRR8704014	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11090028		2016
+SRR8704015	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090029		2016
+SRR8704016	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11090030		2016
+SRR8704017	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089989		2016
+SRR8704018	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089990		2016
+SRR8704019	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089993		2016
+SRR8704020	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089994		2016
+SRR9598301	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090001		2016
+SRR9598302	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090000		2016
+SRR9598303	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089999		2016
+SRR9598304	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089998		2016
+SRR9598305	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089997		2016
+SRR9598306	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089996		2016
+SRR9598307	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089995		2016
+SRR9598308	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089994		2016
+SRR9598309	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089993		2016
+SRR9598310	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089992		2016
+SRR9598311	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089898		2016
+SRR9598312	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089897		2016
+SRR9598313	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089951		2016
+SRR9598314	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090005		2016
+SRR9598315	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090002		2016
+SRR9598316	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090003		2016
+SRR9598317	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090008		2016
+SRR9598318	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11090009		2016
+SRR9598319	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089950		2016
+SRR9598320	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090007		2016
+SRR9598321	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11090010		2016
+SRR9598322	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090011		2016
+SRR9598323	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089902		2016
+SRR9598324	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089901		2016
+SRR9598325	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089900		2016
+SRR9598326	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089899		2016
+SRR9598327	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089990		2016
+SRR9598328	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089991		2016
+SRR9598329	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089932		2016
+SRR9598330	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089933		2016
+SRR9598331	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089934		2016
+SRR9598332	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089935		2016
+SRR9598333	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089936		2016
+SRR9598334	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089937		2016
+SRR9598335	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089988		2016
+SRR9598336	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089989		2016
+SRR9598337	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089986		2016
+SRR9598338	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089928		2016
+SRR9598339	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089929		2016
+SRR9598340	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089987		2016
+SRR9598341	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089985		2016
+SRR9598342	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089984		2016
+SRR9598343	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089927		2016
+SRR9598344	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089926		2016
+SRR9598345	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089931		2016
+SRR9598346	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089930		2016
+SRR9598347	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089923		2016
+SRR9598348	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089924		2016
+SRR9598349	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089921		2016
+SRR9598350	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089922		2016
+SRR9598351	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089919		2016
+SRR9598352	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089920		2016
+SRR9598353	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089981		2016
+SRR9598354	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089982		2016
+SRR9598355	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089925		2016
+SRR9598356	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089983		2016
+SRR9598357	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090006		2016
+SRR9598358	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089979		2016
+SRR9598359	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089913		2016
+SRR9598360	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089912		2016
+SRR9598361	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089911		2016
+SRR9598362	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089916		2016
+SRR9598363	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089915		2016
+SRR9598364	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089914		2016
+SRR9598365	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11089980		2016
+SRR9598366	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089918		2016
+SRR9598367	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089917		2016
+SRR9598368	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090016		2016
+SRR9598369	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090017		2016
+SRR9598370	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090018		2016
+SRR9598371	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090019		2016
+SRR9598372	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090020		2016
+SRR9598373	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090021		2016
+SRR9598374	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089944		2016
+SRR9598375	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089945		2016
+SRR9598376	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090022		2016
+SRR9598377	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090023		2016
+SRR9598378	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089905		2016
+SRR9598379	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089903		2016
+SRR9598380	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090024		2016
+SRR9598381	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089954		2016
+SRR9598382	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089953		2016
+SRR9598383	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089952		2016
+SRR9598384	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089896		2016
+SRR9598385	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089895		2016
+SRR9598386	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089949		2016
+SRR9598387	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089948		2016
+SRR9598388	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089947		2016
+SRR9598389	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089946		2016
+SRR9598390	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090014		2016
+SRR9598391	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089961		2016
+SRR9598392	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090027		2016
+SRR9598393	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089955		2016
+SRR9598394	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089956		2016
+SRR9598395	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090025		2016
+SRR9598396	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090026		2016
+SRR9598397	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089959		2016
+SRR9598398	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089960		2016
+SRR9598399	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089957		2016
+SRR9598400	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089958		2016
+SRR9598401	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089909		2016
+SRR9598402	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089910		2016
+SRR9598403	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089975		2016
+SRR9598404	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089976		2016
+SRR9598405	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089977		2016
+SRR9598406	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089908		2016
+SRR9598407	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089971		2016
+SRR9598408	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089972		2016
+SRR9598409	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089973		2016
+SRR9598410	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089974		2016
+SRR9598411	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090029		2016
+SRR9598412	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089962		2016
+SRR9598413	Bennet	2019	Panama	Aedes albopictus	SINGLE		Larvae	SAMN11090030		2016
+SRR9598414	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090013		2016
+SRR9598415	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090012		2016
+SRR9598416	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089939		2016
+SRR9598417	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089938		2016
+SRR9598418	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089941		2016
+SRR9598419	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089940		2016
+SRR9598420	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089943		2016
+SRR9598421	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089942		2016
+SRR9598422	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090015		2016
+SRR9598423	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11090004		2016
+SRR9598424	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089970		2016
+SRR9598425	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089969		2016
+SRR9598426	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089963		2016
+SRR9598427	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089906		2016
+SRR9598428	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089965		2016
+SRR9598429	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089964		2016
+SRR9598430	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089967		2016
+SRR9598431	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089966		2016
+SRR9598432	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN11089968		2016
+SRR9598433	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089907		2016
+SRR9598435	Bennet	2019	Panama	Aedes aegypti	SINGLE		Larvae	SAMN11089905		2016
+SRR9598436	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN11089904		2016
+SRR9615545	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142897		2016
+SRR9615546	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN12142936		2016
+SRR9615547	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN12142935		2016
+SRR9615548	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142909		2016
+SRR9615549	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142910		2016
+SRR9615550	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142925		2016
+SRR9615551	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142926		2016
+SRR9615552	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142923		2016
+SRR9615553	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142924		2016
+SRR9615554	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142921		2016
+SRR9615555	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142922		2016
+SRR9615556	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142901		2016
+SRR9615557	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142902		2016
+SRR9615558	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142903		2016
+SRR9615559	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142904		2016
+SRR9615560	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142905		2016
+SRR9615561	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN12142906		2016
+SRR9615562	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142907		2016
+SRR9615563	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142908		2016
+SRR9615564	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142929		2016
+SRR9615565	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142930		2016
+SRR9615566	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142916		2016
+SRR9615567	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142915		2016
+SRR9615568	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142918		2016
+SRR9615569	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142917		2016
+SRR9615570	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142912		2016
+SRR9615571	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142911		2016
+SRR9615572	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142914		2016
+SRR9615573	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142913		2016
+SRR9615574	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142920		2016
+SRR9615575	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142919		2016
+SRR9615576	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142927		2016
+SRR9615577	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142900		2016
+SRR9615578	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142895		2016
+SRR9615579	Bennet	2019	Panama	Aedes albopictus	SINGLE		Adult	SAMN12142896		2016
+SRR9615580	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142928		2016
+SRR9615581	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142898		2016
+SRR9615582	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142891		2016
+SRR9615583	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142892		2016
+SRR9615584	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142893		2016
+SRR9615585	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142894		2016
+SRR9615586	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142932		2016
+SRR9615587	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142899		2016
+SRR9615588	Bennet	2019	Panama	Aedes albopictus	PAIRED		Adult	SAMN12142931		2016
+SRR9615589	Bennet	2019	Panama	Aedes aegypti	PAIRED		Adult	SAMN12142933		2016
+SRR9615590	Bennet	2019	Panama	Aedes aegypti	SINGLE		Adult	SAMN12142934		2016
