@@ -1,0 +1,144 @@
+#!/bin/sh
+### Job name
+#PBS -N chris_microbiome_QIIME2_download-data
+### Declare job non-rerunable
+#PBS -r n
+#PBS -k oe
+
+################Change This For Different Queue#####################
+#PBS -q stdq1
+###PBS -q medq1
+####################################################################
+
+### Wall time required. This example is 48 hours
+#PBS -l walltime=96:00:00
+
+### Number of nodes 
+### The following means 1 nodes required. Processor Per Node=20, 
+### ppn (Processor Per Node) can be any number up to 20.
+###PBS -l nodes=2:ppn=20
+
+#########REMEMBER TO CHANGE THE THREAD NUMBER ACCORDING TO THE CHOSEN NODE#################
+###PBS -l nodes=1:ppn=40
+#PBS -l select=1:ncpus=40:mem=755gb
+###########################################################################################
+
+#The following stuff will be executed in the first allocated node.
+#Please don't modify it
+
+PATH=$PBS_O_PATH
+cd $PBS_O_WORKDIR
+# Define number of processors
+NPROCS=`wc -l < $PBS_NODEFILE`
+NNODES=`uniq $PBS_NODEFILE | wc -l`
+NCORES=$((NPROCS / NNODES))
+
+JID=`echo ${PBS_JOBID}| sed "s/.hpc2015-mgt.hku.hk//"`
+echo Job ID : ${JID}
+echo ${NPROCS} CPUs allocated: `cat $PBS_NODEFILE` 1>&2
+echo This PBS script is running on host `hostname` 1>&2
+echo Working directory is $PBS_O_WORKDIR  1>&2
+
+echo ============== ${PBS_JOBNAME} : ${NPROCS} CPUs ====================
+echo "Job Start Time is `date "+%Y/%m/%d -- %H:%M:%S"`"
+
+##############################################################################################################################################################
+
+#SRA accession
+SRA="meta-analysis-3"
+
+module load anaconda3/2021.05
+
+source activate chris_software
+
+cd /home/d24h_prog2/chris/data/microbiome_mosq/
+mkdir $SRA
+cd $SRA
+
+#wget https://www.zenodo.org/record/1185249#.YcpyNWhBxPY  
+
+#/home/d24h_prog2/public_program/sratoolkit.2.11.0-ubuntu64/bin/fastq-dump --split-files --gzip PRJNA523634 PRJNA575054 PRJNA342829 SRR516961 PRJEB22597 SRR610826 PRJNA294068
+
+barcode="Chen2020" ###paper author and year
+lane="L001"
+setnumber="001"
+input="../PRJNA575054_SraAccList.txt"
+while IFS= read -r line
+do
+echo ${line}
+/home/d24h_prog2/chris/software/sratoolkit.2.11.3-ubuntu64/bin/fastq-dump --split-files --gzip ${line}
+done < "$input"
+for filename in *_1.fastq.gz; do mv -- "$filename" "${filename%_1.fastq.gz}_${barcode}_${lane}_R1_${setnumber}.fastq.gz"; done; #change file name
+for filename in *_2.fastq.gz; do mv -- "$filename" "${filename%_2.fastq.gz}_${barcode}_${lane}_R2_${setnumber}.fastq.gz"; done; #change file name
+
+
+###Data for Osei-Poku2012 is not paired-end (is single)
+#barcode="Osei-Poku2012" ###paper author and year
+#lane="L001"
+#setnumber="001"
+#/home/d24h_prog2/chris/software/sratoolkit.2.11.3-ubuntu64/bin/fastq-dump --split-files --gzip SRR516961 
+#for filename in *_1.fastq.gz; do mv -- "$filename" "${filename%_1.fastq.gz}_${barcode}_${lane}_R1_${setnumber}.fastq.gz"; done; #change file name
+#for filename in *_2.fastq.gz; do mv -- "$filename" "${filename%_2.fastq.gz}_${barcode}_${lane}_R2_${setnumber}.fastq.gz"; done; #change file name
+
+barcode="Segata2014" ###paper author and year
+/home/d24h_prog2/chris/software/sratoolkit.2.11.3-ubuntu64/bin/fastq-dump --split-files --gzip SRR610826
+for filename in *_1.fastq.gz; do mv -- "$filename" "${filename%_1.fastq.gz}_${barcode}_${lane}_R1_${setnumber}.fastq.gz"; done; #change file name
+for filename in *_2.fastq.gz; do mv -- "$filename" "${filename%_2.fastq.gz}_${barcode}_${lane}_R2_${setnumber}.fastq.gz"; done; #change file name
+
+barcode="Coon2016" ###paper author and year
+/home/d24h_prog2/chris/software/sratoolkit.2.11.3-ubuntu64/bin/fastq-dump --split-files --gzip SRR4384536
+/home/d24h_prog2/chris/software/sratoolkit.2.11.3-ubuntu64/bin/fastq-dump --split-files --gzip SRR4384537
+/home/d24h_prog2/chris/software/sratoolkit.2.11.3-ubuntu64/bin/fastq-dump --split-files --gzip SRR4384538
+for filename in *_1.fastq.gz; do mv -- "$filename" "${filename%_1.fastq.gz}_${barcode}_${lane}_R1_${setnumber}.fastq.gz"; done; #change file name
+for filename in *_2.fastq.gz; do mv -- "$filename" "${filename%_2.fastq.gz}_${barcode}_${lane}_R2_${setnumber}.fastq.gz"; done; #change file name
+
+
+#sample-id=can be the unique SRA of each sample
+barcode="Receveur2018" ###paper author and year
+lane="L001"
+setnumber="001"
+input="../PRJEB22597_SraAccList.txt"
+while IFS= read -r line
+do
+echo ${line}
+/home/d24h_prog2/chris/software/sratoolkit.2.11.3-ubuntu64/bin/fastq-dump --split-files --gzip ${line}
+done < "$input"
+for filename in *_1.fastq.gz; do mv -- "$filename" "${filename%_1.fastq.gz}_${barcode}_${lane}_R1_${setnumber}.fastq.gz"; done; #change file name
+for filename in *_2.fastq.gz; do mv -- "$filename" "${filename%_2.fastq.gz}_${barcode}_${lane}_R2_${setnumber}.fastq.gz"; done; #change file name
+
+
+#####new stuff for metadata:
+barcode="Bennet2019" ###paper author and year
+lane="L001"
+setnumber="001"
+input="../PRJNA523634_SraAccList.txt"
+while IFS= read -r line
+do
+echo ${line}
+/home/d24h_prog2/chris/software/sratoolkit.2.11.3-ubuntu64/bin/fastq-dump --split-files --gzip ${line}
+done < "$input"
+for filename in *_1.fastq.gz; do mv -- "$filename" "${filename%_1.fastq.gz}_${barcode}_${lane}_R1_${setnumber}.fastq.gz"; done; #change file name
+for filename in *_2.fastq.gz; do mv -- "$filename" "${filename%_2.fastq.gz}_${barcode}_${lane}_R2_${setnumber}.fastq.gz"; done; #change file name
+
+
+barcode="Straub2020" ###paper author and year
+input="../PRJNA294068_SraAccList.txt"
+while IFS= read -r line
+do
+echo ${line}
+/home/d24h_prog2/chris/software/sratoolkit.2.11.3-ubuntu64/bin/fastq-dump --split-files --gzip ${line}
+done < "$input"
+for filename in *_1.fastq.gz; do mv -- "$filename" "${filename%_1.fastq.gz}_${barcode}_${lane}_R1_${setnumber}.fastq.gz"; done; #change file name
+for filename in *_2.fastq.gz; do mv -- "$filename" "${filename%_2.fastq.gz}_${barcode}_${lane}_R2_${setnumber}.fastq.gz"; done; #change file name
+
+##see if data is pair-ended properly:
+for f in *.fastq.gz; do r=$(( $(gunzip -c $f | wc -l | tr -d '[:space:]') / 4 )); echo $r $f; done
+##then, (for now) manually remove SRA inputs where the number of reads in the left and right ends do not match
+
+##############################################################################################################################################################
+
+echo "Job Finish Time is `date "+%Y/%m/%d -- %H:%M:%S"`"
+
+mv ~/*${PBS_JOBNAME}* /home/d24h_prog2/chris/logs/
+
+exit 0
