@@ -82,6 +82,7 @@ qiime dada2 denoise-paired \
   --p-trunc-len-f ${truncf} \
   --p-trunc-len-r ${truncr} \
   --p-n-threads ${threads} \
+  --verbose \
   --o-table table.qza \
   --o-representative-sequences rep-seqs.qza \
   --o-denoising-stats denoising-stats.qza
