@@ -68,6 +68,7 @@ cd $SRA
 source activate qiime2-2021.8
 
 ###to deal with QIIME2 [Errno 28] No space left on device: https://forum.qiime2.org/t/no-space-left-on-device-classifier-tmpdir/2768/3
+mkdir ../TMPDIR
 export TMPDIR='/home/d24h_prog2/chris/data/microbiome_mosq/TMPDIR'
 echo ${TMPDIR}
 
