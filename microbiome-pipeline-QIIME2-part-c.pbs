@@ -80,8 +80,7 @@ echo ${TMPDIR}
 ###Set sampling depth to continue QIIME 2’s diversity analyses
 #set sampling depth based on previous feature-table qzv --> exclude least results, but each file will only keep the same number of reads (randomly chosen).
 #View the table.qzv QIIME 2 artifact, and in particular the Interactive Sample Detail tab in that visualization.
-samplingdepth="170" #9000 because only downloaded 10000 lines per SRA file currently
-
+samplingdepth="1500" #9000 because only downloaded 10000 lines per SRA file currently
 
 qiime diversity core-metrics-phylogenetic \
   --i-phylogeny rooted-tree.qza \
@@ -104,6 +103,8 @@ qiime diversity alpha-group-significance \
   --i-alpha-diversity core-metrics-results/evenness_vector.qza \
   --m-metadata-file ${barcode_metadata} \
   --o-visualization core-metrics-results/evenness-group-significance.qzv
+
+echo "This is the body" | mail -s "Subject: microbiome-pipeline-QIIME2-part-c is done" --attach=core-metrics-results chris.leung@c2i.hk
 
 ##############################################################################################################################################################
 
