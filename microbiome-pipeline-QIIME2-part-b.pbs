@@ -68,10 +68,10 @@ echo ${threads}
 
 ##Denoising QC with dada2 <-- to remove noisy reads (poor quality), improving the quality of the data
 ####manually look at demux-full.qzv at https://view.qiime2.org/ to determine trim and truncate length
-trimf="0"
-trimr="0"
-truncf="260"
-truncr="220"
+trimf="13"
+trimr="13"
+truncf="160"
+truncr="160"
 
 #This method denoises paired-end sequences, dereplicates them, and filters chimeras.
 qiime dada2 denoise-paired \
@@ -104,6 +104,8 @@ qiime metadata tabulate \
   --m-input-file denoising-stats.qza \
   --o-visualization denoising-stats.qzv
 
+echo "This is the body" | mail -s "Subject: microbiome-pipeline-QIIME2-dada2 is done" --attach=table.qzv --attach=rep-seqs.qzv \
+--attach=denoising-stats.qzv chris.leung@c2i.hk
 
 #Alignment for comparisons
 #This pipeline will start by creating a sequence alignment using MAFFT,
@@ -148,6 +150,9 @@ qiime taxa barplot \
   --i-taxonomy taxonomy.qza \
   --m-metadata-file ${barcode_metadata} \
   --o-visualization taxa-bar-plots.qzv
+
+echo "This is the body" | mail -s "Subject: microbiome-pipeline-QIIME2-part-b is done" --attach=table.qzv --attach=rep-seqs.qzv \
+--attach=denoising-stats.qzv --attach=taxonomy.qzv --attach=taxa-bar-plots.qzv chris.leung@c2i.hk
 
 ##############################################################################################################################################################
 
