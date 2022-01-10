@@ -1,6 +1,6 @@
 #!/bin/sh
 ### Job name
-#PBS -N chris_microbiome_QIIME2_download-data
+#PBS -N chris_microbiome_QIIME2_single-end
 ### Declare job non-rerunable
 #PBS -r n
 #PBS -k oe
@@ -110,6 +110,8 @@ qiime demux summarize --i-data demux-single-end.qza --o-visualization demux-full
 
 ###https://docs.qiime2.org/2018.8/tutorials/fmt/
 #qiime dada2 denoise-single \
+
+echo "This is the body" | mail -s "Subject: microbiome-pipeline-QIIME2-single-end is done" --attach=demux-full.qzv chris.leung@c2i.hk
 
 ##############################################################################################################################################################
 
