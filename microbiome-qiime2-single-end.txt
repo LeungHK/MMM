@@ -1,0 +1,120 @@
+#!/bin/sh
+### Job name
+#PBS -N chris_microbiome_QIIME2_download-data
+### Declare job non-rerunable
+#PBS -r n
+#PBS -k oe
+
+################Change This For Different Queue#####################
+#PBS -q stdq1
+###PBS -q medq1
+####################################################################
+
+### Wall time required. This example is 48 hours
+#PBS -l walltime=96:00:00
+
+### Number of nodes 
+### The following means 1 nodes required. Processor Per Node=20, 
+### ppn (Processor Per Node) can be any number up to 20.
+###PBS -l nodes=2:ppn=20
+
+#########REMEMBER TO CHANGE THE THREAD NUMBER ACCORDING TO THE CHOSEN NODE#################
+###PBS -l nodes=1:ppn=40
+#PBS -l select=1:ncpus=40:mem=755gb
+###########################################################################################
+
+#The following stuff will be executed in the first allocated node.
+#Please don't modify it
+
+PATH=$PBS_O_PATH
+cd $PBS_O_WORKDIR
+# Define number of processors
+NPROCS=`wc -l < $PBS_NODEFILE`
+NNODES=`uniq $PBS_NODEFILE | wc -l`
+NCORES=$((NPROCS / NNODES))
+
+JID=`echo ${PBS_JOBID}| sed "s/.hpc2015-mgt.hku.hk//"`
+echo Job ID : ${JID}
+echo ${NPROCS} CPUs allocated: `cat $PBS_NODEFILE` 1>&2
+echo This PBS script is running on host `hostname` 1>&2
+echo Working directory is $PBS_O_WORKDIR  1>&2
+
+echo ============== ${PBS_JOBNAME} : ${NPROCS} CPUs ====================
+echo "Job Start Time is `date "+%Y/%m/%d -- %H:%M:%S"`"
+
+##############################################################################################################################################################
+
+#SRA accession
+SRA="meta-analysis-single-end"
+#barcode_metadata="../metadata_metaanalysis.tsv"
+threads="40"
+
+module load anaconda3/2021.05
+
+source activate chris_software
+
+cd /home/d24h_prog2/chris/data/microbiome_mosq/
+mkdir $SRA
+cd $SRA
+
+#####new stuff for metadata:
+barcode="Bennet2019" ###paper author and year
+lane="L001"
+setnumber="001"
+input="../PRJNA523634_SraAccList.txt"
+while IFS= read -r line
+do
+echo ${line}
+/home/d24h_prog2/chris/software/sratoolkit.2.11.3-ubuntu64/bin/fastq-dump --gzip ${line}
+mv ${line}.fastq.gz ${line}_${barcode}_${lane}_R1_${setnumber}.fastq.gz
+done < "$input"
+
+#for filename in *.fastq.gz; do mv -- "$filename" "${filename%_1.fastq.gz}_${barcode}_${lane}_R1_${setnumber}.fastq.gz"; done; #change file name
+#for filename in *.fastq.gz; do mv -- "$filename" "${filename%_2.fastq.gz}_${barcode}_${lane}_R2_${setnumber}.fastq.gz"; done; #change file name
+
+###to combine single-end and paired-end data for qiime2 analysis
+cp ../meta-analysis-3/*_R1_*.fastq.gz .
+
+################
+source activate qiime2-2021.8
+
+###to deal with QIIME2 [Errno 28] No space left on device: https://forum.qiime2.org/t/no-space-left-on-device-classifier-tmpdir/2768/3
+export TMPDIR='/home/d24h_prog2/chris/data/microbiome_mosq/TMPDIR'
+echo ${TMPDIR}
+
+###Importing data
+qiime tools import \
+  --type 'SampleData[SequencesWithQuality]' \
+  --input-path /home/d24h_prog2/chris/data/microbiome_mosq/$SRA/ \
+  --input-format CasavaOneEightSingleLanePerSampleDirFmt \
+  --output-path demux-single-end.qza
+
+#Summarize counts per sample for all samples, and generate interactive
+#  positional quality plots based on `n` randomly selected sequences.
+qiime demux summarize --i-data demux-single-end.qza --o-visualization demux-full.qzv
+###shows visual information of the data
+
+###Used for denoising QC with dada2 <-- to remove noisy reads (poor quality), improving the quality of the data
+###manually look at demux-full.qzv at https://view.qiime2.org/ to determine trim and truncate length
+
+
+#####https://docs.qiime2.org/2021.8/tutorials/qiime2-for-experienced-microbiome-researchers/
+#Pro-tip #1: QIIME 2 artifacts are just zip files. If at any point you want to look at what actual files are in the .qza artifact, 
+#you can use qiime tools export to extract the data file directly (which is basically just a wrapper for unzip). 
+#Alternatively, you can also unzip your artifact directly (unzip -k file.qza) and look through the files in the data/ folder.
+
+#Pro-tip #2: the QIIME 2 command line interface tools are slow because they have to unzip and re-zip the data contained in the artifacts each time you call them. 
+#If you need to process your data more interactively, you might want to use the Python API - it is much faster since objects can be simply stored in memory. 
+#You can learn more about the different QIIME 2 interfaces.
+
+
+###https://docs.qiime2.org/2018.8/tutorials/fmt/
+#qiime dada2 denoise-single \
+
+##############################################################################################################################################################
+
+echo "Job Finish Time is `date "+%Y/%m/%d -- %H:%M:%S"`"
+
+mv ~/*${PBS_JOBNAME}* /home/d24h_prog2/chris/logs/
+
+exit 0
