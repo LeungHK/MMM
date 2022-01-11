@@ -46,7 +46,7 @@ echo "Job Start Time is `date "+%Y/%m/%d -- %H:%M:%S"`"
 
 #SRA accession
 SRA="meta-analysis-single-end"
-#barcode_metadata="../metadata_metaanalysis.tsv"
+barcode_metadata="../metadata_metaanalysis.tsv"
 threads="40"
 
 module load anaconda3/2021.05
@@ -107,12 +107,100 @@ qiime demux summarize --i-data demux-single-end.qza --o-visualization demux-full
 #If you need to process your data more interactively, you might want to use the Python API - it is much faster since objects can be simply stored in memory. 
 #You can learn more about the different QIIME 2 interfaces.
 
+echo "This is the body" | mail -s "Subject: microbiome-pipeline-QIIME2-single-end demux-full.qzv" --attach=demux-full.qzv chris.leung@c2i.hk
+
+############################
+###break
+
 
 ###https://docs.qiime2.org/2018.8/tutorials/fmt/
-#qiime dada2 denoise-single \
+##Denoising QC with dada2 <-- to remove noisy reads (poor quality), improving the quality of the data
+####manually look at demux-full.qzv at https://view.qiime2.org/ to determine trim and truncate length
+trimf="13"
+truncf="160"
 
-echo "This is the body" | mail -s "Subject: microbiome-pipeline-QIIME2-single-end is done" --attach=demux-full.qzv chris.leung@c2i.hk
+qiime dada2 denoise-single \
+  --p-trim-left ${trimf} \
+  --p-trunc-len ${truncf} \
+  --i-demultiplexed-seqs demux-single-end.qza \
+  --p-n-threads ${threads} \
+  --verbose \
+  --o-table table.qza \
+  --o-representative-sequences rep-seqs.qza \
+  --o-denoising-stats denoising-stats.qza
 
+#Feature table summary
+###make metadata file in tsv format: i.e. barcode_metadata.tsv
+
+#Generate visual and tabular summaries of a feature table.
+qiime feature-table summarize \
+  --i-table table.qza \
+  --o-visualization table.qzv \
+  --m-sample-metadata-file ${barcode_metadata} #straub_2020_metadata.tsv --> straub2020_metadata.tsv ###need metadata file here
+
+#Generate tabular view of feature identifier to sequence mapping, including links to BLAST each sequence against the NCBI nt database.
+qiime feature-table tabulate-seqs \
+  --i-data rep-seqs.qza \
+  --o-visualization rep-seqs.qzv
+
+#Generate a tabular view of Metadata. The output visualization supports interactive filtering, sorting, and exporting to common file formats.
+qiime metadata tabulate \
+  --m-input-file denoising-stats.qza \
+  --o-visualization denoising-stats.qzv
+
+echo "This is the body" | mail -s "Subject: microbiome-pipeline-QIIME2-dada2 is done" --attach=table.qzv --attach=rep-seqs.qzv \
+--attach=denoising-stats.qzv chris.leung@c2i.hk
+
+
+#Alignment for comparisons
+#This pipeline will start by creating a sequence alignment using MAFFT,
+#  after which any alignment columns that are phylogenetically uninformative
+#  or ambiguously aligned will be removed (masked). The resulting masked
+#  alignment will be used to infer a phylogenetic tree and then subsequently
+#  rooted at its midpoint. Output files from each step of the pipeline will
+#  be saved. This includes both the unmasked and masked MAFFT alignment from
+#  q2-alignment methods, and both the rooted and unrooted phylogenies from
+#  q2-phylogeny methods.
+qiime phylogeny align-to-tree-mafft-fasttree \
+  --i-sequences rep-seqs.qza \
+  --p-n-threads ${threads} \
+  --o-alignment aligned-rep-seqs.qza \
+  --o-masked-alignment masked-aligned-rep-seqs.qza \
+  --o-tree unrooted-tree.qza \
+  --o-rooted-tree rooted-tree.qza
+
+
+#Taxonomic analysis
+wget \
+  -O "gg-13-8-99-515-806-nb-classifier.qza" \
+  https://data.qiime2.org/2021.8/common/gg-13-8-99-515-806-nb-classifier.qza
+#^just need to download once
+
+#Classify reads by taxon using a fitted classifier.
+qiime feature-classifier classify-sklearn \
+  --i-classifier gg-13-8-99-515-806-nb-classifier.qza \
+  --i-reads rep-seqs.qza \
+  --o-classification taxonomy.qza
+
+#Generate a tabular view of Metadata. The output visualization supports interactive filtering, sorting, and exporting to common file formats.
+qiime metadata tabulate \
+  --m-input-file taxonomy.qza \
+  --o-visualization taxonomy.qzv
+
+#This visualizer produces an interactive barplot visualization of
+#  taxonomies. Interactive features include multi-level sorting, plot
+#  recoloring, sample relabeling, and SVG figure export.
+qiime taxa barplot \
+  --i-table table.qza \
+  --i-taxonomy taxonomy.qza \
+  --m-metadata-file ${barcode_metadata} \
+  --o-visualization taxa-bar-plots.qzv
+
+echo "This is the body" | mail -s "Subject: microbiome-pipeline-QIIME2-single-end outputs" --attach=table.qzv --attach=rep-seqs.qzv \
+--attach=denoising-stats.qzv --attach=taxonomy.qzv --attach=taxa-bar-plots.qzv chris.leung@c2i.hk
+
+echo "This is the body" | mail -s "Subject: microbiome-pipeline-QIIME2-single-end is done" chris.leung@c2i.hk
+  
 ##############################################################################################################################################################
 
 echo "Job Finish Time is `date "+%Y/%m/%d -- %H:%M:%S"`"
