@@ -3,6 +3,7 @@
 #PBS -N chris_microbiome_QIIME2_single-end
 ### Declare job non-rerunable
 #PBS -r n
+#PBS -j oe
 #PBS -k oe
 
 ################Change This For Different Queue#####################
