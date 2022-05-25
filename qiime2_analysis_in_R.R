@@ -16,6 +16,7 @@ BiocManager::install("phyloseq")
 library("phyloseq")
 ?import
 ?import_qiime
+?import_biom
 
 install.packages("vegan")
 library("vegan")
